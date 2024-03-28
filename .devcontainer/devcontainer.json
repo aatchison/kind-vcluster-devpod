@@ -3,6 +3,7 @@
     "features": {
       "ghcr.io/devcontainers/features/docker-in-docker:2": {},
       "ghcr.io/devcontainers-contrib/features/kind:1": {},
-      "ghcr.io/rio/features/vcluster:1": {}
+      "ghcr.io/rio/features/vcluster:1": {},
+      "ghcr.io/devcontainers-contrib/features/kubectl-asdf:2": {}
     }
   }
