@@ -10,6 +10,8 @@ vcluster create my-cluster
 
 vcluster list
 
+devpod provider add kubernetes
+
 devpod up https://github.com/cnoe-io/idpbuilder --ide none --provider kubernetes
 
 ssh idpbuilder.devpod -C "make test"
