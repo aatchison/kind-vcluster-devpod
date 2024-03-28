@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-$PATH=PATH:/home/vscode/.asdf/shims/
-
 kind create cluster
 
 kind get clusters
